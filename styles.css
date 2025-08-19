@@ -1,0 +1,129 @@
+/* General */
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background: linear-gradient(135deg, #eef2f7, #d9e2ec);
+  margin: 0;
+  padding: 20px 10px;
+  color: #333;
+  line-height: 1.7;
+}
+
+/* Header */
+header {
+  background: linear-gradient(to right, #1e3a8a, #3b82f6);
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 12px;
+  margin-bottom: 40px;
+}
+
+header nav a {
+  color: #e0e7ff;
+  text-decoration: none;
+  margin: 0 15px;
+  transition: color 0.3s ease;
+}
+
+header nav a:hover {
+  color: #fbbf24;
+}
+
+/* Sections */
+section {
+  background: white;
+  max-width: 75%;
+  margin: 0 auto 50px auto;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+section:hover {
+  transform: translateY(-5px);
+}
+
+h2 {
+  color: #1e40af;
+  border-bottom: 3px solid #fbbf24;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+pre {
+  background: #f3f4f6;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  font-size: 0.95rem;
+  overflow-x: auto;
+}
+
+/* Form */
+#form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.08);
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.form-control {
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.form-control label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.form-control input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.form-control small {
+  color: red;
+  visibility: hidden;
+  position: absolute;
+  bottom: -18px;
+  left: 0;
+  font-size: 12px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.form-control.success input { border-color: #28a745; }
+.form-control.error input { border-color: #dc3545; }
+.form-control.error small { visibility: visible; }
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #1e3a8a;
+  color: white;
+  border-radius: 8px;
+  margin-top: 20px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
